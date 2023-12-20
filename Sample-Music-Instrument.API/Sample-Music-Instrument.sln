@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample-Music-Instrument.API
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample-Music-Instrument.Models", "Sample-Music-Instrument.Models\Sample-Music-Instrument.Models.csproj", "{57BEB3C6-5041-4E6F-A37C-4B06C2ACDB0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Music.Instrument.Services", "Sample.Music.Instrument.Services\Sample.Music.Instrument.Services.csproj", "{3420D900-3480-41ED-95FF-2A3CE8BBC979}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{57BEB3C6-5041-4E6F-A37C-4B06C2ACDB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57BEB3C6-5041-4E6F-A37C-4B06C2ACDB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57BEB3C6-5041-4E6F-A37C-4B06C2ACDB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3420D900-3480-41ED-95FF-2A3CE8BBC979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3420D900-3480-41ED-95FF-2A3CE8BBC979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3420D900-3480-41ED-95FF-2A3CE8BBC979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3420D900-3480-41ED-95FF-2A3CE8BBC979}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
