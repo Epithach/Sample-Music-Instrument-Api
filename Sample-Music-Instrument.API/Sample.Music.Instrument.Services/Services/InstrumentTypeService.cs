@@ -10,15 +10,17 @@ using System.Threading.Tasks;
 
 namespace Sample.Music.Instrument.Services.Services
 {
-    public class InstrumentService : IInstrumentTypeService
+    public class InstrumentTypeService : IInstrumentTypeService
     {
+        private readonly IMongoClient _client;
         private readonly IMongoCollection<InstrumentType> _collection;
-        private readonly ILogger<InstrumentService> _logger;
+        private readonly ILogger<InstrumentTypeService> _logger;
 
-        public InstrumentService(IInstrumentTypeSettings settings, IMongoClient mongoClient, ILogger<InstrumentService> logger)
+        public InstrumentTypeService(IInstrumentTypeDatabaseSettings settings, IMongoClient mongoClient, ILogger<InstrumentTypeService> logger)
         {
-            var currentDatase = mongoClient.GetDatabase(settings.DatabaseName);
-            _collection = currentDatase.GetCollection<InstrumentType>(settings.InstrumentTypeCollection);
+            _client = mongoClient = new MongoClient(settings.ConnectionString);
+            var currentDatabase = _client.GetDatabase(settings.DatabaseName);
+            _collection = currentDatabase.GetCollection<InstrumentType>(settings.InstrumentTypeCollection);
             _logger = logger;
         }
 

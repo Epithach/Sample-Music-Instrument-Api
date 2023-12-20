@@ -7,7 +7,7 @@ using Sample.Music.Instrument.Services.Interfaces;
 
 namespace Sample.Music.Instrument.Services.Settings
 {
-    public class InstrumentTypeSettings : IInstrumentTypeSettings
+    public class InstrumentTypeDatabaseSettings : IInstrumentTypeDatabaseSettings
     {
         public string InstrumentTypeCollection { get; set; }
         public string ConnectionString { get; set; }
