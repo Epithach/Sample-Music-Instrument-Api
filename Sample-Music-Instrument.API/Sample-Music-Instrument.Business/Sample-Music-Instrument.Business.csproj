@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Businesses\" />
-    <Folder Include="Interfaces\" />
+    <ProjectReference Include="..\Sample-Music-Instrument.Models\Sample-Music-Instrument.Models.csproj" />
+    <ProjectReference Include="..\Sample.Music.Instrument.Services\Sample-Music-Instrument.Services.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,11 +5,11 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample-Music-Instrument.API", "Sample-Music-Instrument.API\Sample-Music-Instrument.API.csproj", "{0B996E90-BA4A-4DB5-A5FE-BC5EFA40FE58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample-Music-Instrument.Models", "Sample-Music-Instrument.Models\Sample-Music-Instrument.Models.csproj", "{57BEB3C6-5041-4E6F-A37C-4B06C2ACDB0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample-Music-Instrument.Models", "Sample-Music-Instrument.Models\Sample-Music-Instrument.Models.csproj", "{57BEB3C6-5041-4E6F-A37C-4B06C2ACDB0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Music.Instrument.Services", "Sample.Music.Instrument.Services\Sample.Music.Instrument.Services.csproj", "{3420D900-3480-41ED-95FF-2A3CE8BBC979}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample-Music-Instrument.Services", "Sample.Music.Instrument.Services\Sample-Music-Instrument.Services.csproj", "{3420D900-3480-41ED-95FF-2A3CE8BBC979}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample-Music-Instrument.Business", "Sample-Music-Instrument.Business\Sample-Music-Instrument.Business.csproj", "{661A0846-F99B-4422-B4D5-D684EEEA82F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample-Music-Instrument.Business", "Sample-Music-Instrument.Business\Sample-Music-Instrument.Business.csproj", "{661A0846-F99B-4422-B4D5-D684EEEA82F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
