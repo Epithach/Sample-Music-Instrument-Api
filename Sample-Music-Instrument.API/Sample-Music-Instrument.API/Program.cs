@@ -5,7 +5,7 @@ using Sample.Music.Instrument.Services.Services;
 using Sample.Music.Instrument.Services.Settings;
 using Sample_Music_Instrument.Business.Interfaces;
 using Sample_Music_Instrument.Business.Businesses;
-
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -27,6 +27,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+builder.Host.UseSerilog();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
